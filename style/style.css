@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: source;
+
+}
+@font-face {
+    font-family: source;
+    src: url(../font/SourceSansPro-SemiBold.ttf);
+}
+
+:root {
+    --clr-root: #04d9ff;
+    --clr-bg: #00051d;
+    --clr-bg2: #030613;
+    --clr-txt: #ed82ed;
+}
+body{
+    background: var(--clr-bg2);
+}
+.contain{
+    transform: translate(-50%, -50%);
+}
+.box-shadow{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    background: var(--clr-root);
+}
+.display{
+max-height: 300px;
+margin: 10px auto;
+border: 1.6px solid var(--clr-txt);
+/* transition: all 1s ease-in-out; */
+}

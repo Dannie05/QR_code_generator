@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE GENERATOR</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="contain w-[400px] absolute py-6 px-9 top-1/2 left-1/2 bg-white rounded-md ">
+        <p class="uppercase font-[source] mb-4">Enter your text or url</p>
+        <input type="text" placeholder="Text or URL" class="w-[100%] h-[50px] border border-solid border-[#494eea] outline-none p-[10px] mt-2.5 mx-0 mb-5 rounded-sm p-2.5 block" id="input">
+
+        <div class="imgBox">
+            <img src="" id="qrImage" class="w-full p-2 transition-all ease-in-out">
+        </div>
+
+        <button class="w-full h-[50px] bg-[#494eea] text-black my-5 mx-0 py-2 border-none  outline-none rounded-sm box-shadow cursor-pointer relative">GENERATE QR CODE</button>
+    </div>    
+ <script src="./script/index.js"></script>  
+</body>
+</html>
